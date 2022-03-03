@@ -6,7 +6,8 @@
              xmlns:local="clr-namespace:SuperMarket_Managment_Project.Views"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
+    <Grid Background="White">
+        <Button Content="Button" HorizontalAlignment="Left" Margin="314,190,0,0" VerticalAlignment="Top" Command="{Binding resetpassword}"/>
+
     </Grid>
 </UserControl>

@@ -8,9 +8,7 @@
         Title="MainView" Height="450" Width="800">
     <Grid>
 
-        <ContentControl Content="{Binding SelectedViewModel}" HorizontalAlignment="Left" Margin="70,150,0,0" VerticalAlignment="Top" Height="450" Width="1010" Name="DataG">
-
-        </ContentControl>
+        <ContentControl Content="{Binding SelectedViewModel}" HorizontalAlignment="Center" VerticalAlignment="Center" Height="431" Width="796" Name="DataG"/>
 
     </Grid>
 </Window>

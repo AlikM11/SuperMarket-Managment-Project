@@ -28,7 +28,7 @@ namespace SuperMarket_Managment_Project.Views
 
             NavigationStore navigation = new NavigationStore();
 
-            navigation.SelectedViewModel = new AlertViewModel(navigation);
+            navigation.SelectedViewModel = new RecordViewModel(navigation);
 
             DataContext = new MainViewModel(navigation);
         }
